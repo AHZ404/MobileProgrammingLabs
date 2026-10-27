@@ -1,0 +1,58 @@
+# Security & Credentials (Keystores and private properties)
+key.properties
+**/*.keystore
+**/*.jks
+/local.properties
+
+# Gradle & Android Build Tools
+gradle-wrapper.jar
+/.gradle
+/gradlew
+/gradlew.bat
+/captures/
+.cxx/
+GeneratedPluginRegistrant.java
+/android/.gradle/
+/android/app/build/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# Flutter, Dart & Build Outputs (Fixes large repo size)
+/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.widget_preview/
+app.*.symbols
+app.*.map.json
+
+# iOS Native Dependencies
+ios/Pods/
+ios/.symlinks/
+
+# IDE, OS & System Files
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+*.class
+*.log
+*.pyc
+*.swp
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Optional: Uncomment if you want to ignore VS Code settings
+#.vscode/
